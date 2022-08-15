@@ -1,0 +1,50 @@
+.container {
+  padding: 0 2rem;
+  background-color: rgb(248, 248, 248);
+}
+
+.main {
+  position: relative;
+  min-height: 100vh;
+  max-width: 70vw;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 3rem;
+  margin: auto;
+}
+
+.blogTitle {
+  text-align: center;
+  font-family: "Josefin Slab", serif;
+  letter-spacing: 0.5rem;
+  line-height: 4rem;
+  font-size: 2.5rem;
+  color: rgb(18, 18, 18);
+  margin-top: 10%;
+} 
+
+
+.blogContent {
+  text-align: center;
+  text-align: justify;
+  font-family: "Josefin Slab", serif;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(18, 18, 18);
+}
+
+.undersign {
+  font-family: "Shalimar", cursive;
+  font-size: 2.5rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0 2.5rem;
+  }
+}

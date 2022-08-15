@@ -1,0 +1,32 @@
+.mainNav ul li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.15rem;
+    margin: 0 30px;
+    font-family: 'Josefin Slab', serif;
+    letter-spacing: 2px;
+    color: rgb(71, 70, 70);
+}
+
+.mainNav ul a :hover {
+    color: rgb(0, 0, 0);
+    font-weight:900; 
+}
+
+.mainNav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mainNav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.mainNav{
+  border-bottom: 1px solid black;
+}
+
+

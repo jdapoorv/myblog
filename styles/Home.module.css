@@ -1,0 +1,85 @@
+.container {
+  padding: 0 2rem;
+  background-color: rgb(248, 248, 248);
+}
+
+.main {
+  min-height: 100vh;
+  max-width: 50vw;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 3rem;
+  margin: auto;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  text-align: center;
+  font-family: "Josefin Slab", serif;
+  letter-spacing: 0.5rem;
+  font-size: 3rem;
+  color: rgb(56, 55, 55);
+  margin-top: 10%;
+}
+
+.intro {
+  text-align: justify;
+  font-family: "Josefin Slab", serif;
+  letter-spacing: 0.2rem;
+  line-height: 2.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 50px;
+  color: rgb(56, 55, 55);
+}
+
+.description {
+  text-align: justify;
+  font-family: "Josefin Slab", serif;
+  letter-spacing: 0.1rem;
+  line-height: 2.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgb(56, 55, 55);
+}
+
+.titleName {
+  font-family: "Shalimar", cursive;
+  letter-spacing: 0.5rem;
+  font-size: 4rem;
+  color: rgb(56, 55, 55);
+
+}
+
+.mainnav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.mainnav ul li {
+  margin: 0 24px;
+  list-style: none;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainnav ul li {
+    margin: 0 6px;
+    list-style: none;
+    font-weight: bold;
+  }
+}
