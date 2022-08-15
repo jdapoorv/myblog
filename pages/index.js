@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>JD's Den</title>
-        <meta name="keywords" content="nextjs, jd`&apos;`s blog, jai" />
+        <title>jdapoorv</title>
+        <meta name="keywords" content="nextjs, jd&apos;s blog, jai" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
@@ -26,10 +26,10 @@ export default function Home() {
         <p className={styles.description}>
           Depending on the day, there could be a million adjectives that I can
           use as my self-description. I breathe a sigh of relief when I realise
-          I haven`&apos;`t built this site as a way to sell myself. Rather, I built it
+          I haven&apos;t built this site as a way to sell myself. Rather, I built it
           to keep an account of my self-exploration; to tap into my
           introspective self and write down some thoughts that nobody cares
-          about. It`&apos;`s a journey and the final aim is to write a personal bio
+          about. It&apos;s a journey and the final aim is to write a personal bio
           that feels true to myself.
         </p>
       </main>
